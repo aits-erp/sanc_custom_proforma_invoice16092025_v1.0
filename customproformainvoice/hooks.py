@@ -5,6 +5,19 @@ app_description = "test for custom invoice "
 app_email = "pankajal2099@gmail.com"
 app_license = "mit"
 
+
+doctype_js = {
+    "Sales Order": "public/js/sales_order.js"
+}
+
+override_whitelisted_methods = {
+    "erpnext.selling.doctype.proforma_invoice.proforma_invoice.get_stock_reservation_status":
+        "customproformainvoice.customproformainvoice.doctype.proforma_invoice.proforma_invoice.get_stock_reservation_status",
+        
+}
+
+
+
 # Apps
 # ------------------
 
