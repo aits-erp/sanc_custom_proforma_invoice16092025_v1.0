@@ -3,7 +3,7 @@
  "autoname": "hash",
  "creation": "2025-08-19 16:48:10.368446",
  "doctype": "DocType",
- "name": "proforma_invoice_item",
+ "name": "Proforma Invoice Item",
  "module": "Customproformainvoice",
  "document_type": "Document",
  "editable_grid": 1,
